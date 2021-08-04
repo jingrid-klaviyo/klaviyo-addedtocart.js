@@ -1,5 +1,4 @@
 
-<script type="text/javascript">
 var _learnq = _learnq || [];
 function addedToCart() {
   fetch(`${window.location.origin}/cart.js`)
@@ -36,4 +35,3 @@ $(document).ajaxComplete(function(event, request, settings){
       addedToCart()
   }
 })
-</script>
